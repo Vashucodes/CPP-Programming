@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int day;
-    cout << "Enter day number:";
+    cout << "Enter day number :";
     cin >> day;
 
     switch (day)
