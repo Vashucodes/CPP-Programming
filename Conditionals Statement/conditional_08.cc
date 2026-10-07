@@ -3,21 +3,21 @@ using namespace std;
 
 int main(){
 
-    float per;
+    float p;
 
     cout << "Enter your percentage: ";
-    cin >> per;
+    cin >> p;
 
-    if(per < 0 || per > 100){
+    if(p < 0 || p > 100){
         cout << "Invalid percentage";
     }
-    else if(per >= 60){
+    else if(p >= 60){
         cout << "First Division";
     }
-    else if(per >= 45){
+    else if(p >= 45){
         cout << "Second Division";
     }
-    else if(per >= 33){
+    else if(p >= 33){
         cout << "Third Division";
     }
     else{
